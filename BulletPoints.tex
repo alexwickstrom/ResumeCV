@@ -1,0 +1,359 @@
+\documentclass[10pt, oneside]{article}   	
+\parskip= 5pt
+\parindent= 0pt
+
+\usepackage[left=0.8in,top=0.8in,right=0.8in,bottom=1in]{geometry}  
+\usepackage{xcolor}           		
+\geometry{letterpaper}                   		
+		
+\usepackage{graphicx}				
+\usepackage{textcomp}
+\usepackage{sourcecodepro}
+\usepackage{ragged2e}
+\usepackage{amssymb}
+\usepackage{currvita}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+% set itemize spacing
+\usepackage{enumitem}
+\setitemize{itemsep=-1.5pt}
+
+\usepackage{soul}
+\usepackage[T1]{fontenc}
+\usepackage{fontspec}
+%\usepackage[utf8]{inputenc}
+%\usepackage{tgpagella}
+\usepackage{palatino}
+%\usepackage{garamond}
+\usepackage{verbatim}
+
+\usepackage[normalem]{ulem}
+\usepackage{contour}
+\renewcommand{\ULdepth}{1.7pt}
+\contourlength{0.8pt}
+\contournumber{100}
+\usepackage{fontawesome}
+%\newcommand*\faMobile{{\FA\symbol{"F10B}}}
+\newcommand{\ultight}[1]{%
+  \uline{\phantom{#1}}%
+  \llap{\contour{white}{#1}}%
+}
+% C++ logo
+\newcommand{\CC}{C\nolinebreak\hspace{-.05em}\raisebox{.4ex}{\tiny\bf +}\nolinebreak\hspace{-.10em}\raisebox{.4ex}{\tiny\bf +}}
+
+
+% horizontal line
+\newcommand{\hRule}[1]{\textcolor[RGB]{110,110,110}{\rule{#1\linewidth}{0.2pt}}}
+
+\newcommand{\hRuleShort}{\centerline{\textcolor[RGB]{110,110,110}{\rule{0.63\linewidth}{0.2pt}}}}
+
+\renewcommand{\baselinestretch}{1.0} 
+% Change the typewriter font
+\renewcommand{\ttdefault}{cmvtt}
+% \definecolor{linkColor}{RGB}{166,0,0} % RED
+\definecolor{linkColor}{RGB}{0,0,166} % BLUE
+\begin{document}	
+
+%\begin{cvlist}
+\vspace{-10pt}
+\centerline{\huge  \textbf{Alexander Wickstrom}}
+        \vspace{2mm}
+%	 \item\centerline{1440 Veteran Ave, Los Angeles, CA 90024}
+\centerline{ \faMobile{} 414-779-7102 \quad \faEnvelope{} awickstrom@ucla.edu 
+\quad{\color{linkColor}\ultight{{\href{https://www.linkedin.com/in/alexander-wickstrom-429b8b53/}{Linkedin}}}}\quad{\color{linkColor} \ultight{\href{https://www.researchgate.net/profile/Alexander_Wickstrom}{ResearchGate}}}}
+\vspace{-1mm}
+%%%% INTRODUCTION
+% Who I am
+% What I can bring to the table
+% Career aim
+%%% INTERESTS
+\begin{comment}
+{\large  \textbf{Interests}}
+
+     Applying neural engineering to biomedicine. Specifically: \vspace{-2mm}
+     \begin{enumerate}
+     \setlength{\parskip}{1pt}
+        \item Online machine learning for chronic neural recordings
+        \item Bidirectional brain-computer interfaces
+       \item Cortical prosthetics
+     %   \item Non-invasive cognition enhancement    
+     \end{enumerate}
+\end{comment}
+%\vspace{-1pt}
+%\hRuleShort{} \vspace{-10pt}
+\vspace{-2pt}
+\begin{center}
+    %{\large  \textbf{Summary}}
+A bioengineer with 5 years experience in Python and MATLAB, specializing in machine learning, data analysis, and signal processing.
+Also familiar with {\textsf{R}}, SQL, and C\hspace{-0.5pt}\texttt{+\hspace{-1pt}+}.% \\ A motivated team player adept at executing solo projects. 
+\end{center}
+% \vspace{-12pt}
+%     \hRuleShort{}
+     
+%\subsection*{}
+%\vspace{9mm}
+{\Large  \textbf{Education}}  \hrulefill
+
+\textbf{Master of Science:} Bioengineering  (Neuroengineering subfield) \hfill{Sept. 2016 - June 2019}\\
+\textit{University of California, Los Angeles} (UCLA) \hfill GPA: 3.7/4.0
+
+        Thesis: {\color{linkColor}{\href{https://escholarship.org/uc/item/0bt7x5mm}{\ultight{Neural Dynamics of Human Seizures}}}}\\
+         Thesis Chair: Wentai Liu, Ph.D. \quad Co-Chair: Jonathan Kao, Ph.D. 
+         
+        
+% {University of California, Los Angeles} (UCLA)
+
+\textbf{Bachelor of Science:} Biological Sciences \hfill  Jan. 2012 - Dec. 2015\\
+\textit{University of Wisconsin-Milwaukee} (UWM) \hfill GPA: 3.7/4.0
+
+Certificate: Premedical Studies\\
+
+%\begin{cvlist}{Research Interests}%
+	%\item I am interested in pursuing a graduate education in biomedical engineering. \newline Specifically, I am interested in an interdisciplinary training program that incorporates both computational modeling and laboratory techniques to develop breakthroughs in clinical and investigative neuromodulation. %neural prosthesis technology. 
+%\end{cvlist}
+%
+%
+%\renewcommand\ttdefault{sourcecodepro}
+
+{\Large  \textbf{Research}} \hrulefill
+
+    % Kao Lab
+    \textbf{Graduate Student Researcher}\hfill Feb. 2018 --- June 2019 {\color{linkColor}
+    
+    \href{https://seas.ucla.edu/~kao/people.html}{\ultight{Neural Computation and Engineering Laboratory}}} \phantom{}-- Signal Processing + Machine Learning (UCLA) \quad \\
+     \textit{Principal Investigator: Jonathan Kao, Ph.D.}
+    \begin{itemize}[topsep=0.5pt]
+        \item Processed a large (2TB+) dataset of broadband electrical signals from intracranial depth electrodes.
+        \item Wrote custom software to extract single- and multi-unit spiking activity.
+        \item Applied statistical and machine learning techniques to find temporal structure in human neural data. 
+        \item  Trained CNNs to predict seizures (with up to 98\% accuracy) using TensorFlow on a remote Linux server. % for seizure prediction
+        \item Built \texttt{hoopSort} software, a spike-sorting GUI in MATLAB.
+    \end{itemize}
+    
+    %\newpage    
+    
+    % Diba Lab
+	\textbf{Undergraduate Research Assistant} \hfill May 2015 --- Aug. 2016 {\color{linkColor}
+	% http://neuralcircuits.uwm.edu
+	
+	\href{http://sites.lsa.umich.edu/diba-lab/lab-alumni/}{\ultight{Diba Neural Circuits \& Memory Laboratory}}} -- Computational Neuroscience (UWM)\\
+	\textit{Principal Investigator: Kamran Diba, Ph.D.}
+	% reword
+	\begin{itemize}[topsep=0.5pt]
+	    \item Built computational models of spiking recurrent neural networks in MATLAB.
+	    % \item Explored dynamic properties of recurrent spiking networks with conduction delays and spike-timing dependent plasticity. 
+	    \item Developed a new model of forward and reverse replay in neural populations trained on temporal \newline sequences.
+%	    \item Modeled memory encoding and retrieval.   	
+	\end{itemize}
+     
+    % Swain Lab
+	\textbf{Undergraduate Research Assistant}  \hfill  Aug. 2013 --- Jan. 2016 {\color{linkColor}
+	
+	\href{https://sites.google.com/site/swainlabuwm/home}{\ultight{Swain Behavioral Neuroscience Laboratory}}} -- Behavioral Neuroscience (UWM) \\
+	\textit{Principal Investigator: Rodney Swain, Ph.D.}
+	\begin{itemize}[topsep=0.5pt]
+	    \item 	Innovated critical solutions for drug preparation.
+        %\item  Assisted with behavioral testing; 
+        \item Performed drug injections, craniotomies, and durotomies on adult rats, along with %Vascular imaging via SD-OCT.
+		 whole-animal perfusion and brain extraction.
+		 \item 		 Used Leica\textregistered  \phantom{} Cryostat to prepare brain tissue for microscopy.  % on Leica CryoStat.
+		 \item 		 Compiled statistical analyses in MATLAB.
+	\end{itemize}
+%	\vspace{-5pt}
+
+{\Large{\textbf{Work Experience}}}  \hrulefill
+
+    \textbf{Dev Engineer Jr.} \hfill June 2019 --- Present
+    
+    {\color{linkColor}
+    \href{https://seas.ucla.edu/~kao/}{\ultight{Neural Computation and Engineering Laboratory}}} (UCLA)
+    \begin{itemize}[topsep=0.5pt]
+        \item  Refining deep learning models for seizure prediction.
+        \item Editing a manuscript for submission.
+    \end{itemize}
+    % TA for DeepLearning - Kao's class
+    \vspace{3pt}
+   \textbf{Teaching Assistant} \hfill Jan. --- June 2019
+   
+ {\color{linkColor}\href{https://seas.ucla.edu/~kao/nndl/index.html}{\ultight{ECE 239AS}}}: Neural Networks \& Deep Learning (UCLA)\\
+    \textit{Professor: Jonathan Kao, Ph.D.}
+    \begin{itemize}[topsep=0.5pt]
+        \item   Recorded video discussion sections and held in-person office hours. 
+        \item    Wrote and graded exam questions. Responded to student questions via Piazza web service.
+    \end{itemize}
+  % TA for MachineLearning BioEng
+  \vspace{3pt}
+    \textbf{Teaching Assistant}  \hfill Jan. --- June 2018
+    
+     %\underline{\smash{\href{https://bioe-ml-w18.github.io/bioe-ml-winter2018/}{BIOENGR 188}}}:
+    {\color{linkColor}
+    \href{https://aarmey.github.io/ml-for-bioe/}{\underline{\smash{BIOENGR C275}}}}:
+    % Special Courses in Bioengineering -
+     Machine Learning \& Data-driven Modeling in Bioengineering (UCLA)\\
+    \textit{Professor: Aaron Meyer, Ph.D.}
+    \begin{itemize}[topsep=0.5pt]
+        \item  Led discussion sections in a computer lab and held office hours.
+        \item Taught examples of machine learning concepts \newline (regression, dim. reduction, clustering, HMMs, SVMs, etc.) using slideshows and Jupyter notebooks.
+    \end{itemize}
+     
+%\vspace{-5pt}
+
+
+% 	\item \textbf{Volunteer} \hfill February 2011 | August 2014
+% 	\item \underline{\smash{Columbia St. Mary\textquotesingle s Hospital}}
+% 	\item Three years experience: Intensive Care Unit
+% 	\item One year experience: Emergency Department
+
+%\newpage
+%
+%
+%
+%
+%
+%
+%
+\begin{comment}
+\vspace{5mm}
+{\large \textbf{Presentations}}%\vspace{-118mm}
+
+\textbf{Wickstrom, A.T.} Spectral domain optical coherence tomography for the assessment of cerebrovascular plasticity.  Poster presented at: Society for Neuroscience, annual meeting. November 15, 2016. San Diego, CA.
+
+ \textbf{Wickstrom, A.T.} Cerebrovascular Plasticity Assessed by Spectral-Domain Optical \newline Coherence Tomography.
+	\color{blue}\href {https://sites.google.com/site/atwreferencesapril2015/}{Poster} \color{black}presented at:\hspace{2pt}\color{blue}\href{http://dc.uwm.edu/uwsurca/2015/Poster1/55/}{\textit{14th Annual UW System Symposium}}\newline
+	\color{black}\textit{for Undergraduate Research \& Creative Activity}; April 24, 2015. Milwaukee, WI.
+\color{blue}
+
+\color{black}
+ \textbf{Wickstrom, A.T.} Optogenetic Manipulation of Thalamic Reticular Subnetworks. \newline Oral presentation delivered at:\hspace{2pt}\color{blue}\href{https://sites.google.com/site/uwmnci/}			{\textit{UWM Neuronal Control \& Interference Journal Club}}\color{black}; December 11, 2014. Milwaukee, WI.
+
+ \textbf{Wickstrom, A.T.}, Behnke, V.K., \& Garnett, E.D. Exercise, Learning, and the Expression of HIF-1$\alpha$ in the
+	Hippocampus of the Adult Rat. 
+	Poster presented at:\hspace{3pt}\textit{13th Annual UW System Symposium for Undergraduate Research \& Creative Activity}; 
+	April 11, 2014. Milwaukee, WI.
+\end{comment}
+%\begin{cvlist}{Conferences Attended}
+%	\item Annual Meeting of the Society for Neuroscience.  \hfill{November 12-16, 2016}
+%		\item San Diego, CA
+%	\item Annual Meeting of the Society for Neuroscience.  \hfill{October 17-21, 2015}
+%		\item Chicago, IL
+%\end{cvlist}
+%\begin{cvlist}{Publications}
+%	\item Stevenson, M.E., Wickstrom, A.T., Behnke, V.K., \& Swain, R.A. Vascular plasticity modulates neurogenesis. \textit{In Preparation}, 2016.
+%\end{cvlist}
+%\vspace{5mm}
+%\vspace{-12pt}
+
+
+{\Large \textbf{Publications}} \hrulefill
+
+\textbf{Wickstrom, A.} \& Kao, J.C. (2020).  Power in spiking band predicts seizure onset. \textit{Manuscript in Progress}
+
+Stevenson, M. E., Kay, J. J., Atry, F., \textbf{Wickstrom, A.}, Krueger, J. R., Pashaie, R. E., \& Swain, R. A. (2019).\\ Wheel Running for 26 Weeks is Associated with Sustained Vascular Plasticity in the Rat Motor Cortex. \\ \textit{Behavioural Brain Research}, 112447.
+
+\begin{comment}
+\textbf{Wickstrom, A.}, Lyttle, D. \& Diba, K. (2020). Forward and reverse replay in a recurrent network with STDP. (2020).\\
+\end{comment}
+{\Large \textbf{Memberships}} \hrulefill % \underline{Neuronal Control \& Interference Journal Club}  (UWM) \hfill{Fall 2014}
+
+ \textbf{Institute of Electrical and Electronics Engineers} \hfill{Jan. 2016 --- Present}\newline
+	 \phantom{9mm} Engineering in Medicine and Biology Society 
+%	\item \hspace{9mm} Biometrics Council
+%	\item \hspace{9mm} Nanotechnology Council
+
+	 \textbf{Society for Neuroscience} \hfill{Oct. 2015 --- Present} \newline
+%	 \hspace{-1.5mm}  \textbf{American Chemical Society} \hfill{2015 --- Present}
+	 \phantom{9mm} Biochemical Technology Division
+	 
+	 \textbf{American Medical Student Association}  (UWM chapter) \hfill{Jan. 2012 --- Dec. 2015} \newline
+	 \phantom{9mm}Volunteer Coordinator \hfill{Jan. 2013 --- June 2014} \newline
+	 \phantom{9mm}Chair of Race, Ethnicity, and Culture in Health \hfill{Jan. --- June 2014}  
+	 
+% SFN Oct. 17-21, 2015
+%\vspace{5mm}
+{\Large \textbf{Certifications}} \hrulefill
+
+    \textbf{Responsible Conduct of Research Involving Humans}:  David Geffen School of Medicine, UCLA
+ 
+% 	\item  \textbf{Standard First Aid}: American Academy of Orthop\ae dic Surgeons/American College of Emergency Physicians
+% 	\item  \textbf{Adult, Child, Infant CPR}: AAOS/ACEP
+% 	\item  \textbf{Automated External Defibrillator}: AAOS/ACEP
+
+	  \textbf{Basic Life Support for Healthcare Providers}: American Heart Association
+	  
+	%\item  \textbf{Lab and Chemical Safety Training} (Completed at UWM)
+	 %\textbf{Hazardous Waste Handling} (Completed at UWM) 
+	 \textbf{Emergency Medical Technician}: Nat. Reg. of Emergency Medical Technicians (Registry \# E3093180)
+
+{\Large \textbf{References}} \hrulefill
+\begin{table}[h!]
+    \begin{tabular}{ll}
+         Wentai Liu, Ph.D. &\faEnvelope{} wentai@ucla.edu \\
+Jonathan Kao, Ph.D. &  \faEnvelope{} kao@seas.ucla.edu\\
+Kamran Diba, Ph.D. &\faEnvelope{} kdiba@umich.edu \\
+Rodney Swain, Ph.D. & \faEnvelope{} rswain@uwm.edu   
+    \end{tabular}
+\end{table}
+
+
+
+% \newpage
+
+
+\begin{comment}
+
+    \begin{cvlist}{Technical Skills}
+    %	\item \textbf{Hardware  \hspace{150pt}     Software}
+    %	\item Arduino microcontrollers  \hspace{90pt}     MATLAB  %
+    %	\item Soldering,  \hspace{62pt} Python
+    %	
+    %	\item \hspace{9mm} circuit board etching \hspace{126pt}  CadSoft EAGLE 
+    %	\item Stand-alone EEG prototype (in progress) \hspace{19pt} \LaTeX
+        \vphantom{a}
+        \phantom{a}
+        \item 
+        \item
+        \vspace{-3mm}
+            %\caption{My caption}
+            %\label{my-label}
+            \hspace{-2mm}
+            \begin{tabular}{lll} 
+                \textbf{Hardware}   & \textbf{Software} &    \\
+                Arduino microcontrollers & MATLAB   &    \\
+                Soldering                & Python   &    \\
+                Circuit Board Etching    & EAGLE    &   
+            \end{tabular}
+    \end{cvlist}
+    
+\end{comment}
+
+
+%\begin{cvlist}{Projects}
+%\item tDCS prototype (completed) \hspace{74pt} R
+
+
+%\begin{cvlist}{References}
+%\item
+%\end{cvlist}
+
+%\begin{cvlist}{Relevant Coursework}
+ %   \item \textbf{UCLA}
+ %   \item Signals \& Systems \hfill  2017
+ %   \item Signal and Image Processing in Biomedicine  \hfill 2017
+ %   \item Nonlinear Dynamical Systems | ODEs \hfill 2017
+ %   \item Computational Modeling and Simulation of Biol. Systems  \hfill 2017
+ %   \item Machine Learning for Bioinformatics  \hfill 2017
+ %   \item  Neural Systems \& Anatomy \hfill 2017
+ %   \item Dynamics of Neural Microcircuits \hfill 2017
+ %   \item Neuroengineering  \hfill 2016
+    % UWM
+ %   \item \textbf{UWM}
+ %   \item Probability Models \hfill 2016
+ %   \item Linear Algebra + Differential Equations \hfill 2015
+ %   \item Neuropharmacology \hfill 2015
+ %   \item Neuroscience \hfill 2015
+ %   \item Physiological Psychology \hfill 2014
+ %   \item Neuropsychology \hfill 2013
+    
+%\end{cvlist}
+
+\end{document}  

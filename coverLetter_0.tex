@@ -1,0 +1,105 @@
+\documentclass[10pt, oneside]{article}   	
+\parskip= 12pt
+\parindent= 0pt
+
+\usepackage[left=1in,top=1in,right=1in,bottom=1in]{geometry}  
+\usepackage{xcolor}           		
+\geometry{letterpaper}                   		
+		
+\usepackage{graphicx}				
+\usepackage{textcomp}
+\usepackage{sourcecodepro}
+\usepackage{ragged2e}
+\usepackage{amssymb}
+\usepackage{currvita}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{soul}
+\usepackage[T1]{fontenc}
+\usepackage{fontspec}
+%\usepackage[utf8]{inputenc}
+%\usepackage{tgpagella}
+\usepackage{palatino}
+%\usepackage{garamond}
+\usepackage{verbatim}
+\usepackage[normalem]{ulem}
+\usepackage{contour}
+\renewcommand{\ULdepth}{1.7pt}
+\contourlength{0.8pt}
+\contournumber{100}
+\usepackage{fontawesome}
+%\newcommand*\faMobile{{\FA\symbol{"F10B}}}
+\newcommand{\ultight}[1]{%
+  \uline{\phantom{#1}}%
+  \llap{\contour{white}{#1}}%
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\jobTitle}{Clinical Data Research Analyst }
+\newcommand{\company}{UCLA}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\newcommand{\hRule}{\textcolor[RGB]{110,110,110}{\rule{\linewidth}{0.2pt}}}
+
+\renewcommand{\baselinestretch}{1.0} 
+% Change the typewriter font
+\renewcommand{\ttdefault}{cmvtt}
+% \definecolor{linkColor}{RGB}{166,0,0} % RED
+\definecolor{linkColor}{RGB}{0,0,166} % BLUE
+
+
+
+\begin{comment}
+ALWAYS include a cover letter!
+
+- TO: (as specific as you can get)
+
+- Quick Review:
+  Why should they care? 
+    I'm interested in; I'm a fan of; I'd like to apply for . . . 
+    
+- The Pitch:
+
+    This is what it's all about.
+    You're a fan of the comapny.
+    Show how you're familiar with the company.
+    At least get on the mailing list; subscribing list, etc. 
+    Set up: "Here's who I am, here;s what I'm asking for; and this is why"
+    Put yourself in PERSPECTIVE: Tell your story here in 1 or 2 or 3 sentences.
+    You want the recruiter to be excited for the CV; or motivate them to actually read the CV.
+    
+- Next Steps: 
+\end{comment}
+
+
+\begin{document}	
+
+%\begin{cvlist}
+
+\centerline{\huge  \textbf{Alexander Wickstrom}}
+        \vspace{1mm}
+%	 \item\centerline{1440 Veteran Ave, Los Angeles, CA 90024}
+\centerline{ \faMobile{} 414-779-7102 \quad \faEnvelope{} awickstrom@ucla.edu }
+January 20, 2020
+
+
+Dear hiring manager:
+
+Thank you for the opportunity to apply for the role of \jobTitle  at \company. Based on the job description and requirements listed, I believe the position would be a great fit for my skillset and interests. I hope you\textquotesingle ll agree.
+
+I am passionate about applying data analysis and machine learning to biomedicine. In my first coding project during my Bachelor of Science, I built computational models of spiking neural circuits in MATLAB to investigate learning and memory phenomena. As part of my Master's thesis, I applied state-of-the-art signal processing and machine learning techniques to identify and visualize structure in a 40kHz time-series dataset recorded from inside the brains of UCLA patients. I also trained deep neural networks in Python (using Keras as a TensorFlow API) to predict seizures from this data.  
+
+Along the way, I have learned to effectively use SciPy, scikit-learn, and other Python packages for signal processing and machine learning. I regularly made use of several powerful MATLAB toolboxes, like Statistics \& Machine Learning and Signal Processing. A combination of coursework and laboratory work have prepared me to skillfully handle a variety of data modalities, including raw images, electrical signals, and text files. I\textquotesingle ve also become proficient on the command line while training models remotely on my lab\textquotesingle s Ubuntu server. I\textquotesingle ve completed training as an Emergency Medical Technician, and earned an A+ in a UCLA course for Responsible Conduct of Research Involving Humans. Finally, I\textquotesingle ve learned to be a proactive team member who can produce results with minimal supervision. 
+
+I am looking to join a motivated team to work on exciting challenges in an environment where I can further develop my skills as a data scientist and engineer. I would love to learn more about your needs for the \jobTitle position, and I would welcome the chance to provide further insight into my experience with machine learning and data analysis. In the meantime, I invite you to review my achievements in the attached CV. 
+
+Thank you for considering my candidacy for this position. I look forward to hearing from you! 
+
+Sincerely,\\
+Alex
+\end{document}
